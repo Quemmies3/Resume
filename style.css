@@ -11,13 +11,14 @@
 
 body {
     background: rgb(243, 247, 246);
-    font-size: 13px;
-    line-height: 20px; 
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px; 
 }
 
 .resume-wrapper {
     display: flex;
-    width: 800px;
+    width: 950px;
     margin: 50px auto;
     padding: 9px;
     background: rgb(222, 240, 239);
@@ -53,6 +54,11 @@ body {
     color: rgb(34, 34, 71);
     text-align: justify;
 }
+
+.resume-wrapper .resume-left .resume-info .resume-subinfo a {
+    color: rgb(34, 34, 71);
+    text-decoration: none;
+} 
 
 .resume-wrapper .resume-left .resume-bottom {
     padding: 20px 30px;   
